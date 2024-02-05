@@ -42,7 +42,7 @@ repos:
 
   # ruff - python linter with fixing ability
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: 1d42195ebc67a509991eaf68c2353e0181003a95 # frozen: v0.1.14
+    rev: ae242036716e63f62f1b8dc7ebb69b3a51f31d35  # frozen: v0.2.0
     hooks:
       - id: ruff
         name: ruff (fix)
@@ -50,7 +50,7 @@ repos:
 
   # black - python formatter
   - repo: https://github.com/psf/black
-    rev: ec91a2be3c44d88e1a3960a4937ad6ed3b63464e # frozen: 23.12.1
+    rev: e026c93888f91a47a9c9f4e029f3eb07d96375e6  # frozen: 24.1.1
     hooks:
       - id: black
         args: ["--safe"]
@@ -142,7 +142,7 @@ repos:
 
   # ruff - python linter with fixing ability
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: 1d42195ebc67a509991eaf68c2353e0181003a95 # frozen: v0.1.14
+    rev: ae242036716e63f62f1b8dc7ebb69b3a51f31d35  # frozen: v0.2.0
     hooks:
       - id: ruff
         name: ruff (lint)
